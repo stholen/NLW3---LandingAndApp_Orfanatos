@@ -8,13 +8,13 @@ export default class Orphanage {
     @Column()
     latitude: number;
     @Column()
-    longitutde: number;
+    longitude: number;
     @Column()
     about: string;
     @Column()
-    ionstructions: string;
+    instructions: string;
     @Column()
     opening_hours: string;
     @Column()
-    opening_on_weekend: true;
+    open_on_weekends: true;
 }
